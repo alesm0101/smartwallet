@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'smartwallet';
+  isExpanded = true;
+
+  toggleMenu() {
+    this.isExpanded = !this.isExpanded;
+  }
 }
