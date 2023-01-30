@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Food",
+      "icon": "fastfood"
+    },
+    {
+      "id": 2,
+      "title": "Transportation",
+      "icon": "directions_car"
+    },
+    {
+      "id": 3,
+      "title": "Housing",
+      "icon": "home"
+    },
+    {
+      "id": 4,
+      "title": "Utilities",
+      "icon": "wifi"
+    },
+    {
+      "id": 5,
+      "title": "Insurance",
+      "icon": "security"
+    },
+    {
+      "id": 6,
+      "title": "Medical & Healthcare",
+      "icon": "local_hospital"
+    },
+    {
+      "id": 7,
+      "title": "Recreation & Entertainment",
+      "icon": "local_play"
+    },
+    {
+      "id": 7,
+      "title": "Others",
+      "icon": "category"
+    }
+  ],
+  "wallets": [
+    {
+    "id": 1,
+    "title": "HSBC Bank Account",
+    "description": "Bank Account",
+    "balance": 1300,
+    "currency": "USD",
+    "creationDate": "2023-01-26T09:28:06.468Z"
+    },
+    {
+      "id": 2,
+      "title": "HSBC Bank Account2",
+      "description": "Secondary Bank Account",
+      "balance": 1300,
+      "currency": "EURO",
+      "creationDate": "2023-01-26T09:28:06.468Z"
+      }
+  ],
+  "frecuencies": [
+    {
+      "id": 1,
+      "days": 365,
+      "title": "anual"
+    },
+    {
+      "id": 2,
+      "days": 30,
+      "title": "monthly"
+    },
+    {
+      "id": 3,
+      "days":90,
+      "title": "quarterly"
+    }
+  ],
+  "frequentTransactions": [
+    {
+      "transactionId": 2,
+      "frecuencieId": 2,
+      "payday": "1"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Carrefour",
+      "description": "Groseries",
+      "date": "2023-01-26T09:28:06.468Z",
+      "currency": "USD",
+      "amount": 34,
+      "walletId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Wifi",
+      "description": "Oracle wifi",
+      "date": "2023-01-26T09:28:06.468Z",
+      "currency": "USD",
+      "amount": 35,
+      "walletId": 2,
+      "categoryId": 4
+    }
+  ],
+
+  "budgets": [
+    {
+      "id": 1,
+      "title": "Food",
+      "description": "My goal for food",
+      "creationDate": "2023-01-26T09:28:06.468Z",
+      "currency": "USD",
+      "amount": 300,
+      "excludedWalletID": [],
+      "categoryId": 1
+    }
+  ],
+  "profile": {
+    "nickname": "typicode",
+    "avatar": "face",
+    "creationDate": "2023-01-26T09:28:06.468Z"
+  }
+}
